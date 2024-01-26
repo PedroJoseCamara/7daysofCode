@@ -1,0 +1,15 @@
+@import url(header.css);
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --preto-claro: #3A404E;
+    --fonte-header: "Inter";
+    --cinza-claro: #667085;
+    --branco: #FFFFFF;
+    --vinho: #8e2424;
+}
+
+.body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-header);
+}

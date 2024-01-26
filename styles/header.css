@@ -1,0 +1,40 @@
+.navegacao {
+    margin: 1em 2.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1.25em;
+    align-items: center;
+}
+
+.logotipo {
+    display: flex;
+    color: var(--preto-claro);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--fonte-header);
+    align-items: center;
+    gap: 8px;
+}
+
+.link {
+  
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-header);
+    color: var(--cinza-claro);
+    gap: 40px;
+}
+
+
+    
+
+.botao {
+    border: none;
+    background-color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+}
