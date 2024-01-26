@@ -20,21 +20,36 @@
 }
 
 .link {
-  
+    color: var(--cinza-claro);
     font-size: 16px;
     font-weight: 500;
     font-family: var(--fonte-header);
-    color: var(--cinza-claro);
+    
     gap: 40px;
 }
 
-
-    
+.link_s__uteis {
+    gap: 2.5em;
+}
 
 .botao {
+    font-family: var(--fonte-header);
+}   
+   
+    .botao__entrar {
     border: none;
     background-color: var(--branco);
     font-size: 16px;
     font-weight: 500;
     color: var(--cinza-claro);
+}
+
+.botao__cadastrar {
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--vinho);
+    border-radius: 8px;
+    padding: 0.625em 1.125em;
+    border: transparent;
 }
